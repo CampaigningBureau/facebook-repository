@@ -1,0 +1,29 @@
+{
+    "name": "campaigningbureau/facebook-repository",
+    "description": "Acts as a repository that is able to poll the feed of facebook pages. Also comes with an optional caching decorator",
+    "keywords": [
+        "laravel",
+        "repository",
+        "facebook"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0.0",
+        "sammyk/laravel-facebook-sdk": "^3.5",
+        "illuminate/cache": "5.5.*",
+        "illuminate/support": "5.5.*"
+    },
+    "authors": [
+        {
+            "name": "Stefan Schindler",
+            "email": "stefan.schindler@campaigning-bureau.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CampaigningBureau\\FacebookRepository\\": "src"
+        }
+    },
+    "minimum-stability:": "dev",
+    "prefer-stable": true
+}
