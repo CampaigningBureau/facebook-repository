@@ -1,4 +1,4 @@
-# Facebook Repository for Laravel 5.5
+# Facebook Repository for  >= Laravel 5.5
 
 This package is able to load the latest posts from a facebook feed and return them. An optional caching decorator is available.
 
